@@ -1,0 +1,221 @@
+/* Iconos de acciones del crud */
+.acciones a {
+    display: inline-block;
+    margin-right: 5px;
+    color: gray;
+}
+
+.acciones a.eliminar {
+    color: gray !important;
+}
+
+.acciones a.eliminar:hover {
+    color: red !important;
+}
+
+.acciones a.modificar {
+    color: gray !important;
+}
+.acciones a.modificar:hover {
+    color: blue !important;
+}
+
+.acciones a.mostrar {
+    color: gray !important;
+}
+.acciones a.mostrar:hover {
+    color: green !important;
+}  
+
+/*Botones del formulario y busqueda */ 
+#btn-mostrar-filtros{
+    color: #ffff;
+    background: #007bff;
+    /* primary*/
+}
+
+#btn-agregar{
+    color: #ffff;
+    background: #28a745;
+    /* success*/
+}
+
+#btn-regresar{
+    color: #000000;
+    background: #f8f9fa;
+}
+#btn-guardar{
+    color: #ffff;
+    background: #28a745;
+}
+#btn-modificar{
+    color: #ffff;
+    background: #6c757d;
+}
+
+
+
+
+body{
+    margin:0;  /*que no tenga ningun margen*/
+    padding: 0;
+    font-family: 'calibri light';
+    
+    /*margin-top: 30px;
+    color:black;
+    background-color: ;*/
+
+}
+h4  {
+    font-size: 2.1em;
+    line-height: 2.5em;
+    color: #000000;
+    padding: 15px 0 5px 0;
+    margin: 0;
+    text-align: center;
+}
+
+h6{
+    color: black;
+    font-size: 1.2em;
+
+}
+
+  
+
+p{
+    color: #ffff;
+    text-decoration: none;
+    padding: 5px 4px; /* margen intrno*/
+    margin: 0px 4px;
+    font-size: 1.1em;
+}
+
+/* Encabezado */
+#linea{
+    width: 100%;
+    height: 5px;
+    background: #086a87;
+}
+
+
+
+#enca{
+    width: 100%;
+    height: 130px;
+    background: #0b2f3a;
+    color: #ffff;   
+}
+
+/*menu*/
+#menu{
+    width: auto;
+    height: 50px; 
+    background: #0b2f3a;
+    overflow: hidden;
+    border:0px solid;
+    float: right;
+    margin-top:  -50px;
+    text-align: right;
+}
+
+#menu ul li{
+    display: inline-block;
+    /*poner los link de manera horizontal*/
+}
+
+#menu ul li a{
+    color: #ffff;
+    text-decoration: none;
+    padding: 5px 5px; /* margen intrno*/
+    margin: 0px 4px;
+
+
+}
+
+#menu ul li a:hover{
+    background: #0A727B;
+    border-radius: 8px;
+}
+
+#conteni{
+    background: #ffc107;
+    width: 100%;
+    height: auto; overflow: hidden;
+    
+}
+
+
+
+/* Contedido menu2 */
+#menu22{
+    width: 168px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 1;
+
+    
+}
+#menu22 ul li a:hover{
+    background: #0A727B;
+    border-radius: 8px;
+}
+
+/* contenido derecha*/
+ #derecha{
+    width: 1100px;
+    height: auto;overflow: hidden;
+    border: 0px solid;
+    float: right;
+    margin-right:60px;
+    margin-top: 10px;
+}
+
+
+/* Pie de pagina */
+#pie{
+    width: 100%;
+    height: 70px;
+    border: 0PX solid;
+    background: #0b2f3a;
+    margin-bottom: 10px;
+}
+#pie #cen{
+    width: 800px;
+    height: auto;   overflow: hidden;
+    margin: auto;
+    border: 0px solid;
+    color: #ffff;
+  
+    }
+
+
+/* --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;*/
